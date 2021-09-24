@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "A social media CRUD with MERN stack",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirbank-89/social_media-MERN_stack.git"
+  },
+  "author": "anirbank-89",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anirbank-89/social_media-MERN_stack/issues"
+  },
+  "homepage": "https://github.com/anirbank-89/social_media-MERN_stack#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
